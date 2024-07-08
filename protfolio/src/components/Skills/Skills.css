@@ -1,0 +1,44 @@
+.skill-div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap:30px;
+    margin: 30px 170px;
+}
+.top-div{
+    margin-top: 70px;
+}
+.Skill-title h1{
+    padding: 0px 30px;
+    font-size: 80px;
+    text-align: center;
+}
+
+.logo{
+    width: 60px;
+    height: 60px;
+}
+
+.skill-element{
+    display: flex;
+    gap: 60px;
+    align-items: center;
+    transition: 0.3s;
+    font-size: 30px;
+    
+}
+.skill-element p{
+    min-width: 180px;
+}
+.skill-element hr{
+    outline: none;
+    border: none;
+    width: 50%;
+    height: 8px;
+    border-radius: 50px;
+    background: linear-gradient(264deg, #a82c0d -5.08%, #560fda 106.28%);
+}
+.detial{
+    width: 80%;
+    margin-left: 10%;
+}

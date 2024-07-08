@@ -1,0 +1,33 @@
+.prof-img{
+    width: 400px;
+    border-radius: 100px;
+   
+}
+.con-div{
+    margin-top: 60px;
+}
+
+
+.about-title h1{
+    padding: 0px 30px;
+    font-size: 80px;
+    text-align: center;
+}
+.about-content{
+    display: flex;
+    gap: 80px;
+    margin-left: 10%;
+}
+.content-para p{
+    font-size: 30px;
+    text-align: justify;
+  
+   
+}
+
+@media(max-width:768px) {
+   .mob-img{
+    display:none;
+   }
+   
+}

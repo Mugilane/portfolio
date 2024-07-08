@@ -1,0 +1,49 @@
+.nav-div{
+    margin: 30px 50px;
+    border: 1px solid blue;
+    border-radius: 50px;
+    background-color: rgb(48, 42, 42);
+    position: sticky;
+    top: 0;
+  }
+  .colur{
+    color: aliceblue;
+  }
+  .cen-menu{
+    display: flex;
+    gap: 30px;
+    margin-left:10%;
+    font-size: 20px;
+    
+  }
+  .cen-menu-li:hover{
+    background: linear-gradient(64deg, #18ec89 2.87%, #35f71b 106.54%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  .name{
+    margin-left: 20px;
+    font-size: 30px;
+    background: linear-gradient(259deg, #3d17c7 2.87%, #ca0a0a 106.54%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  .menu{
+    display: flex;
+    
+  }
+ @media (max-width:768px) {
+        .hidan{
+          display: none;
+        }
+        .nav-div{
+          border-radius: 20px;
+        }
+ }
+ @media (max-width:425px) {
+  .name{
+    font-size: 25px;
+  }
+ }

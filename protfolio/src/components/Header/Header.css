@@ -1,0 +1,81 @@
+.pro-img{
+    width: 200px;
+    border-radius: 100px;
+    margin-top: 50px;
+
+}
+.header h1 span{
+    background: linear-gradient(259deg, #3d17c7 2.87%, #ca0a0a 106.54%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.header{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 35px;
+}
+.header h1 {
+    text-align: center;
+    width: 70%;
+    font-size: 80px;
+}
+.header p{
+    font-size: 20px;
+}
+.header-action{
+    display: flex;
+    align-items: center;
+    gap: 60px;
+    margin-bottom: 50px;
+    font-size: 24px;
+}
+.hire-action{
+    padding: 25px 45px;
+    border-radius: 50px;
+    background-color: chocolate;
+    cursor: pointer;
+}
+.resume{
+    padding: 25px 45px;
+    border-radius: 50px;
+    border: 2px solid #eedfdf;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.div-btn{
+    text-decoration: aliceblue;
+    font-size: 30px;
+    
+}
+.anchor-link{
+    text-decoration: none;
+    color: aliceblue;
+}
+.hire-action:hover{
+    transform: scale(1.1);
+}
+.resume:hover{
+    border-color: chocolate;
+}
+
+@media(max-width:768px){
+    .header h1{
+        font-size: 40px;
+    }
+    .header img{
+        width: 150px;
+        height: 200px;
+    }
+    .header-action{
+        display: flex;
+        flex-direction: column;
+    }
+    .header{
+        gap: 20px;
+    }
+    .header p{
+        max-width: 90%;
+    }
+}
