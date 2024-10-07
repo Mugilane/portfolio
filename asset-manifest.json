@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.1afab44e.css",
+    "main.js": "/portfolio/static/js/main.90ef3232.js",
+    "static/js/453.1407b060.chunk.js": "/portfolio/static/js/453.1407b060.chunk.js",
+    "static/media/work.jpg": "/portfolio/static/media/work.700b33562a35a67710c1.jpg",
+    "static/media/prof_img.jpg": "/portfolio/static/media/prof_img.b357cd6a62bc4d7ff09b.jpg",
+    "static/media/sqlimg.png": "/portfolio/static/media/sqlimg.167c88550478e6f0f85c.png",
+    "static/media/android.png": "/portfolio/static/media/android.6a36f1520007194e22e3.png",
+    "static/media/html_img.png": "/portfolio/static/media/html_img.f3aa7827cd5160f3fc1c.png",
+    "static/media/java_img.png": "/portfolio/static/media/java_img.2a1399f78477e0e27b8e.png",
+    "static/media/react_img.png": "/portfolio/static/media/react_img.20adfb35ae6a6e5817bf.png",
+    "static/media/python.png": "/portfolio/static/media/python.f7f12e1bf59e577656a2.png",
+    "static/media/javascript.png": "/portfolio/static/media/javascript.78206ba65e01c7d57080.png",
+    "index.html": "/portfolio/index.html",
+    "static/media/githublogo.svg": "/portfolio/static/media/githublogo.23e30a8314b23217000ad5b95c40ca63.svg",
+    "static/media/bootstrap.svg": "/portfolio/static/media/bootstrap.de42fd16543bee05547741e88bb55101.svg",
+    "static/media/linkedin.svg": "/portfolio/static/media/linkedin.79641008567930998be56f1cbc271507.svg",
+    "static/media/phone.svg": "/portfolio/static/media/phone.5a035f23b03a2400ead3cfaf0277a86c.svg",
+    "static/media/location.svg": "/portfolio/static/media/location.a7e2c3d87d0bafafe166b05b37d9b810.svg",
+    "static/media/mail.svg": "/portfolio/static/media/mail.57504d238b7d16a07e482f9395f74ef8.svg",
+    "main.1afab44e.css.map": "/portfolio/static/css/main.1afab44e.css.map",
+    "main.90ef3232.js.map": "/portfolio/static/js/main.90ef3232.js.map",
+    "453.1407b060.chunk.js.map": "/portfolio/static/js/453.1407b060.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1afab44e.css",
+    "static/js/main.90ef3232.js"
+  ]
+}
