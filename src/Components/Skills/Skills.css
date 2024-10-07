@@ -1,0 +1,34 @@
+.set-img {
+  width: 100px;
+  height: 140px;
+  margin-top: 20px;
+}
+.skils {
+  margin-top: 30px;
+  font-size: 80px;
+}
+.top {
+  margin-top: 20px;
+  align-content: center;
+}
+
+.d-box {
+  margin-left: 50px;
+  height: 230px;
+  transform-style: flat;
+}
+.d-box:hover {
+  box-shadow: 0 8px 16px 0 rgba(91, 24, 207, 0.727),
+    0 12px 40px 0 rgba(69, 10, 231, 0.773);
+  transition: all 0.3s ease-out;
+}
+.grids-l {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 30px;
+}
+@media (max-width: 768px) {
+  .grids-l {
+    grid-template-columns: auto auto;
+  }
+}

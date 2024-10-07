@@ -1,0 +1,17 @@
+.im-set {
+  height: 400px;
+}
+.cards {
+  transition: all 0.3s ease-out;
+  border: 2px solid red;
+  background-color: rgb(135, 227, 210);
+}
+.cards:hover {
+  box-shadow: 0 4px 8px 0 rgba(211, 74, 6, 0.839),
+    0 6px 20px 0 rgba(240, 167, 7, 0.773);
+}
+@media (max-width: 768) {
+  .im-set {
+    height: 200px;
+  }
+}
