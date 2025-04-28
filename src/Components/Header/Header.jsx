@@ -15,17 +15,34 @@ const Header = () => {
   return (
     <header id='home' className='container-fluid'>
 
-      <div id="carouselExampleControls" class="carousel slide text-light" data-bs-ride="carousel">
-            <div class="carousel-inner">
-              <div class="carousel-item active">
+      <div 
+      // id="carouselExampleControls" 
+      class="carousel slide text-light" 
+      // data-bs-ride="carousel"
+      >
+            <div 
+            // class="carousel-inner"
+            >
+              <div
+              //  class="carousel-item active"
+              >
                 <div className="d-flex flex-row justify-content-between">
                 <div className='content m-5 '>
                 <h2 className='name'>I'm Mugilane,</h2>
-                <h2 className='name-d'>B.Tech Computer Science Engineering <br/>
-                 Student at Pondicherry University</h2>
-                <p className=''>I am Fresher for seeking Web application and Andorid
-                  Application developer role. I have a knowledeg for python, SQL, Java, 
-                  C# and Dot Net related roles are sutable for me.</p>
+                <h2 className='name-d'>MERN Stack Developer<br/>
+                 With One year of hands-on experience</h2>
+                <p className=''> In designing and developing dynamic web applications. 
+                  Skilled in building scalable, efficient, and responsive solutions
+                   using MongoDB, Express.js, React.js, and Node.js. Adept at debugging, optimizing 
+                   performance, and implementing best coding practices to enhance user experience.</p>
+
+                <ul>
+                  <h4>Technical Skills:</h4>
+                  <li>Frontend: React.js, Redux, Tailwind CSS, Bootstrap</li>
+                  <li>Backend: Node.js, Express.js</li>
+                  <li>Database: MongoDB, Mongoose</li>
+                  <li>Other Tools: Git, GitHub, Postman, Docker (if applicable), AWS S3</li>
+                </ul>
 
                 <div className="header-action m-5">
                     <div className="hire-action" >
@@ -37,21 +54,21 @@ const Header = () => {
                     </div>
                 
                   <div>
-                  <h1>Service</h1>
+                  {/* <h1>Service</h1>
                   <div className='d-flex flex-row gap-5 p-3'>
                     <img src={htm} alt="" className='sk-img'/>
                      <img src={reat} alt="" className='sk-img' />
                      <img src={an} alt=""  className='sk-img'/>
                      <img src={fr} alt="" className='sk-img' />
                      <img src={sql} alt="" className='sk-img' />
-                  </div>
+                  </div> */}
                   </div>
                 </div>
                   <img src={logo} class="d-block image" alt="" />
                 </div>
                </div>
          
-             <div class="carousel-item">
+             {/* <div class="carousel-item">
                 <div className="d-flex flex-row justify-content-between">
                 <div className='content m-5 '>
                 <h2 className='name'>I'm Mugilane,</h2>
@@ -82,17 +99,17 @@ const Header = () => {
                 </div>
                 <img src={logo} class="d-block image" alt="" />
                 </div>
-               </div>
+               </div> */}
 
           </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+            {/* <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
               <span class="carousel-control-prev-icon" aria-hidden="true"></span>
               <span class="visually-hidden">Previous</span>
             </button>
             <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
               <span class="carousel-control-next-icon" aria-hidden="true"></span>
               <span class="visually-hidden">Next</span>
-            </button>
+            </button> */}
        </div>
       
     </header>

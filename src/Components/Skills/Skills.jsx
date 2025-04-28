@@ -1,15 +1,6 @@
 import React from 'react'
 import './Skills.css'
 import Skills_Data from '../../assets/Skills_Data'
-import bt from '../../assets/bootstrap.svg'
-import py from '../../assets/python.png'
-import htm from '../../assets/html_img.png'
-import reat from '../../assets/react_img.png'
-import js from '../../assets/javascript.png'
-import ja from '../../assets/java_img.png'
-import an from '../../assets/android.png'
-import fr from '../../assets/flutter_img.png'
-import sql from '../../assets/sqlimg.png'
 
 
 const Skills = () => {
