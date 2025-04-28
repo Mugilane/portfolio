@@ -49,7 +49,7 @@ const Header = () => {
                       Hire Me
                       </div>
                     <div className="resume" >
-                    <a className='div-btn' href="https://github.com/Mugilane/mugilane-portfolio/raw/main/public/MUGILANE%20CV-RESUME%20updated.pdf">
+                    <a className='div-btn' href="https://github.com/Mugilane/portfolio/raw/main/public/mugilane%20resume%20F2.pdf">
                     My Resume/CV</a></div>
                     </div>
                 
