@@ -20,11 +20,12 @@ const footerCols = [
   {
     title: 'Services',
     links: [
-      { to: '/services', label: 'Web Application'    },
-      { to: '/services', label: 'Branding Websites'         },
-      { to: '/services', label: 'Mobile Application'  },
-      { to: '/services', label: 'SaaS Product Development'   },
-      { to: '/services', label: 'Training & Mentoring'   },
+      { to: '/services', label: 'Web Application' },
+      { to: '/services', label: 'Branding Websites' },
+      { to: '/services', label: 'Mobile Application' },
+      { to: '/services', label: 'SaaS Product Development' },
+      { to: '/services', label: 'Training & Mentoring' },
+      { to: '/services', label: 'Custom Enterprise Software' },
     ],
   },
   {

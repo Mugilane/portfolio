@@ -4,34 +4,44 @@ import PageHero from '../components/ui/PageHero';
 import { Link } from 'react-router-dom';
 
 const SERVICES_OVERVIEW = [
-  { num:'01', icon:'fa-pen-nib',  title:'Business Strategy', desc:'Strategic business solutions that drive measurable growth.' },
-  { num:'02', icon:'fa-star',     title:'Branding',          desc:'Memorable brand identities that resonate deeply.'         },
-  { num:'03', icon:'fa-cube',     title:'Product Design',    desc:'Intuitive and beautiful digital products.'                },
-  { num:'04', icon:'fa-bullhorn', title:'Digital Marketing', desc:'High-impact digital marketing campaigns.'                 },
-  { num:'05', icon:'fa-film',     title:'Motion Graphic',    desc:'Stunning motion graphics and animations.'                 },
-  { num:'06', icon:'fa-code',     title:'Web Development',   desc:'Fast, responsive and modern web applications.'           },
+  { num: '01', icon: 'fa-laptop-code', title: 'Web Application', desc: 'Fast, responsive, and scalable web applications built with modern frontend and backend tech.' },
+  { num: '02', icon: 'fa-palette', title: 'Branding Websites', desc: 'Stunning visual identities and high-converting websites tailored to your brand.' },
+  { num: '03', icon: 'fa-mobile-screen-button', title: 'Mobile Application', desc: 'Intuitive cross-platform mobile apps delivering smooth performance on iOS and Android.' },
+  { num: '04', icon: 'fa-cloud', title: 'SaaS Product Development', desc: 'End-to-end multi-tenant SaaS engineering, cloud infrastructure, and backend APIs.' },
+  { num: '05', icon: 'fa-chalkboard-user', title: 'Training & Mentoring', desc: '1-on-1 developer mentorship, code reviews, and technical workshops for engineering growth.' },
+  { num: '06', icon: 'fa-building-user', title: 'Custom Enterprise Software', desc: 'Bespoke enterprise software systems, microservice architectures, and complex workflow automation.' },
 ];
 
 const DETAIL_SERVICES = [
   {
-    icon: 'fa-pen-nib', num: '01', title: 'UI/UX DESIGN',
-    desc: 'User-centered design that transforms complex problems into simple, beautiful solutions. I conduct thorough user research, create wireframes, interactive prototypes, and deliver pixel-perfect designs.',
-    features: ['User Research & Persona Development','Wireframing & Information Architecture','Interactive Prototyping','Usability Testing & Iteration','Design System & Component Libraries'],
+    icon: 'fa-laptop-code', num: '01', title: 'WEB APPLICATION',
+    desc: 'Modern, performant web applications built with cutting-edge technologies. Every line of code is written with focus on performance, accessibility, security, and scalability across all devices.',
+    features: ['Custom React & Next.js Development', 'Responsive & Mobile-First UIs', 'State Management & Real-time Integration', 'Performance & SEO Optimization', 'Progressive Web App (PWA) Capabilities'],
   },
   {
-    icon: 'fa-code', num: '02', title: 'WEB DEVELOPMENT',
-    desc: 'Modern, performant web applications built with cutting-edge technologies. Every line of code is written with purpose — for speed, accessibility, and scalability.',
-    features: ['React / Next.js Applications','Responsive Mobile-First Development','Performance Optimization (90+ Lighthouse)','API Integration & Backend Services','CMS Integration (Webflow, WordPress)'],
+    icon: 'fa-palette', num: '02', title: 'BRANDING WEBSITES',
+    desc: 'From custom visual aesthetics and typography to high-converting landing pages, I craft online visual identities that communicate your brand values and engage visitors.',
+    features: ['Custom Visual Design & Brand Aesthetics', 'High-Converting Landing Pages', 'Smooth Micro-Interactions & Animations', 'Brand Guidelines & Digital Assets', 'Content Management System (CMS) Integration'],
   },
   {
-    icon: 'fa-star', num: '03', title: 'BRANDING & IDENTITY',
-    desc: 'From logo creation to complete brand identity systems, I craft visual identities that communicate your values, attract your ideal customers, and stand apart from the competition.',
-    features: ['Logo Design & Brand Mark','Color Palette & Typography System','Brand Guidelines Document','Marketing Collateral Design','Social Media Kit'],
+    icon: 'fa-mobile-screen-button', num: '03', title: 'MOBILE APPLICATION',
+    desc: 'End-to-end mobile application development for iOS and Android. Delivering clean mobile architectures with fluid navigation, push notifications, and seamless API connectivity.',
+    features: ['iOS & Android Cross-Platform Development', 'Native Performance & Intuitive UI/UX', 'RESTful API & Firebase Integration', 'App Store & Google Play Deployment', 'Offline Support & Push Notifications'],
   },
   {
-    icon: 'fa-film', num: '04', title: 'MOTION GRAPHICS',
-    desc: 'Dynamic animations and video productions that make your content come alive. From subtle UI micro-animations to full video campaigns that stop the scroll.',
-    features: ['Explainer & Product Videos','Social Media Animations','Logo Animation & Intro/Outros','UI/Web Micro-animations','3D Motion & Visual Effects'],
+    icon: 'fa-cloud', num: '04', title: 'SAAS PRODUCT DEVELOPMENT',
+    desc: 'Turn your SaaS vision into a reliable, enterprise-grade cloud product. I engineer full-stack multi-tenant applications complete with subscription billing, admin dashboards, and scalable architectures.',
+    features: ['Multi-Tenant SaaS Architecture', 'Stripe & Billing Pipeline Integration', 'Role-Based Access Control & Auth', 'Real-Time Analytics & Admin Dashboards', 'Cloud CI/CD Pipelines & Infrastructure'],
+  },
+  {
+    icon: 'fa-chalkboard-user', num: '05', title: 'TRAINING & MENTORING',
+    desc: 'Empowering software developers and engineering teams to level up their technical skills. I offer personalized coaching sessions, code reviews, system design workshops, and career growth guidance.',
+    features: ['1-on-1 Mentorship & Career Coaching', 'In-Depth Code Reviews & Architecture Refactoring', 'System Design & Engineering Best Practices', 'Full-Stack Developer Bootcamps', 'Team Upskilling & Technical Workshops'],
+  },
+  {
+    icon: 'fa-building-user', num: '06', title: 'CUSTOM ENTERPRISE SOFTWARE',
+    desc: 'Tailored enterprise-grade software solutions engineered for complex business requirements. I design distributed systems, microservices architectures, legacy modernizations, and automated workflow pipelines.',
+    features: ['Custom Enterprise Microservices & APIs', 'Legacy System Modernization & Migration', 'gRPC & Event-Driven Message Queues', 'Complex Business Logic & Workflow Engines', 'High-Availability Cloud Infrastructure'],
   },
 ];
 
@@ -39,37 +49,37 @@ const PRICING = [
   {
     tier: 'Starter', price: '$999', period: 'per project', featured: false,
     features: [
-      { yes: true, text: 'Landing Page Design' },
-      { yes: true, text: 'Logo & Brand Kit' },
-      { yes: true, text: 'Responsive Development' },
+      { yes: true, text: 'Branding Website / Landing Page' },
+      { yes: true, text: 'Responsive Mobile Design' },
       { yes: true, text: '3 Revision Rounds' },
-      { yes: true, text: 'Source Files Included' },
-      { yes: false, text: 'SEO Optimization' },
-      { yes: false, text: 'Ongoing Support' },
+      { yes: true, text: 'Source Code & Assets' },
+      { yes: true, text: 'Basic SEO Setup' },
+      { yes: false, text: 'Mobile App Development' },
+      { yes: false, text: 'SaaS Multi-Tenant Architecture' },
     ],
   },
   {
     tier: 'Professional', price: '$2,499', period: 'per project', featured: true,
     features: [
-      { yes: true, text: 'Multi-page Website' },
-      { yes: true, text: 'Complete Branding' },
-      { yes: true, text: 'React / Next.js Dev' },
+      { yes: true, text: 'Full Web Application' },
+      { yes: true, text: 'Cross-Platform Mobile App' },
+      { yes: true, text: 'Branding & UI/UX System' },
       { yes: true, text: 'Unlimited Revisions' },
-      { yes: true, text: 'Source Files Included' },
-      { yes: true, text: 'SEO Optimization' },
-      { yes: false, text: '6-month Support' },
+      { yes: true, text: 'API Integration & Backend' },
+      { yes: true, text: 'Advanced SEO & Analytics' },
+      { yes: false, text: 'Dedicated SaaS Infrastructure' },
     ],
   },
   {
     tier: 'Enterprise', price: 'Custom', period: 'contact for pricing', featured: false,
     features: [
-      { yes: true, text: 'Full Product Design' },
-      { yes: true, text: 'Brand Strategy' },
-      { yes: true, text: 'Full-Stack Development' },
+      { yes: true, text: 'SaaS Product Development' },
+      { yes: true, text: 'Multi-Tenant Cloud Infrastructure' },
+      { yes: true, text: 'Team Training & Mentoring' },
       { yes: true, text: 'Unlimited Revisions' },
-      { yes: true, text: 'All Files Included' },
-      { yes: true, text: 'Advanced SEO' },
-      { yes: true, text: '1-year Support' },
+      { yes: true, text: 'Custom Auth & Billing Pipelines' },
+      { yes: true, text: 'Security Audit & Optimization' },
+      { yes: true, text: '1-Year Dedicated Support' },
     ],
   },
 ];

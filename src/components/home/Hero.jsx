@@ -69,7 +69,7 @@ export default function Hero() {
           </p>
 
           <div className="flex items-center gap-4 flex-wrap justify-center md:justify-start">
-            <a href="#" className="btn-dark">
+            <a href="https://github.com/Mugilane/portfolio/raw/48902ae1b649e7df33ef996990da23df92f83d8a/public/mugilane-cv.pdf" className="btn-dark">
               <i className="fa-solid fa-envelope text-xs"/>
               DOWNLOAD CV
             </a>

@@ -9,19 +9,19 @@ import proj3 from '../../assets/project3.jpg';
 
 const PROJECTS = [
   {
-    img: proj1, tag: 'UI/UX · Front-end',
-    title: 'BRANDING & DIGITAL VIDEO CAMPAIGN FOR GEORGE\'S CAFÉ',
-    desc: 'We created a cutting-edge platform for San Francisco-based firm Martin Building.',
+    img: proj1, tag: 'Web Application · SaaS Product',
+    title: 'ENTERPRISE DASHBOARD & REAL-TIME PORTAL',
+    desc: 'Scalable high-performance portal built with React, Redux Toolkit, and Node.js microservices for real-time analytics.',
   },
   {
-    img: proj2, tag: 'Analytics · UI/UX · Front-end',
-    title: 'BRANDING & DIGITAL VIDEO CAMPAIGN FOR GEORGE\'S CAFÉ',
-    desc: 'We created a cutting-edge platform for San Francisco-based firm Martin Building.',
+    img: proj2, tag: 'Branding Websites · Visual Identity',
+    title: 'AETHEL — BRANDING WEBSITE & DESIGN SYSTEM',
+    desc: 'Custom visual identity, logo design system, and responsive branding website crafted to maximize audience conversion.',
   },
   {
-    img: proj3, tag: 'Analytics · UI/UX · Front-end',
-    title: 'BRANDING & DIGITAL VIDEO CAMPAIGN FOR GEORGE\'S CAFÉ',
-    desc: 'We created a cutting-edge platform for San Francisco-based firm Martin Building.',
+    img: proj3, tag: 'Mobile Application · iOS & Android',
+    title: 'FINTRACK — CROSS-PLATFORM MOBILE FINANCE APP',
+    desc: 'Intuitive iOS and Android mobile app featuring push notifications, biometric security, and offline transactions.',
   },
 ];
 

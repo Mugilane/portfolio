@@ -7,21 +7,21 @@ import proj3 from '../assets/project3.jpg';
 
 const FEATURED = [
   {
-    img: proj1, size: 'large', cat: 'Design', date: 'August 10, 2026',
-    title: '10 UI Design Principles Every Designer Must Know in 2026',
-    excerpt: 'The landscape of UI design is constantly evolving. Here are the 10 core principles that separate good designers from great ones — principles that stand the test of time even as trends shift.',
+    img: proj1, size: 'large', cat: 'SaaS Product', date: 'August 14, 2026',
+    title: 'Architecting Multi-Tenant SaaS Products: From Billing to Scalable APIs',
+    excerpt: 'Building a successful SaaS application requires robust multi-tenant database isolation, seamless payment pipelines, role-based security, and cloud scalability. Here is a step-by-step technical guide.',
   },
 ];
 
 const SIDEBAR = [
-  { img: proj2, cat: 'Branding', date: 'August 5, 2026',  title: 'Why Consistent Branding Grows Your Revenue by 23%' },
-  { img: proj3, cat: 'Dev',      date: 'July 28, 2026',   title: 'The State of Web Development: Tools & Trends for 2026' },
+  { img: proj2, cat: 'Branding Websites', date: 'August 8, 2026',  title: 'How Custom Branding Websites Double Conversion Rates for Tech Brands' },
+  { img: proj3, cat: 'Enterprise Software', date: 'August 2, 2026',   title: 'Migrating Monolithic Enterprise Systems to Microservices & gRPC' },
 ];
 
 const ARTICLES = [
-  { img: proj1, cat: 'UX',     date: 'July 20, 2026', title: 'How to Conduct User Research on a Tight Budget',      excerpt: 'User research doesn\'t have to be expensive. Here are 7 methods that deliver powerful insights.' },
-  { img: proj2, cat: 'Motion', date: 'July 12, 2026', title: 'Micro-Animations: The Secret Weapon of Great UX',      excerpt: 'Learn how subtle animations can dramatically improve user engagement and delight in your interfaces.' },
-  { img: proj3, cat: 'Career', date: 'July 5, 2026',  title: 'From Junior to Senior Designer: My 8-Year Journey',   excerpt: 'A candid look at the lessons, mistakes, and milestones that shaped my career as a designer.' },
+  { img: proj1, cat: 'Web Application',     date: 'July 26, 2026', title: 'Building Production-Grade React & Next.js Web Apps in 2026', excerpt: 'Deep dive into state management, performance optimization, and clean architecture for modern high-traffic web applications.' },
+  { img: proj2, cat: 'Mobile Application',  date: 'July 18, 2026', title: 'Cross-Platform Mobile Apps: Offline Sync & Fluid UX',        excerpt: 'Learn how to construct fast, reliable iOS & Android applications with native performance, push notifications, and offline data sync.' },
+  { img: proj3, cat: 'Training & Mentoring',date: 'July 10, 2026', title: 'Developer Growth: Code Reviews & Technical Mentorship',        excerpt: 'Proven strategies for building high-performing software teams through structured 1-on-1 mentorship and constructive code review workflows.' },
 ];
 
 function BlogCard({ img, cat, date, title, excerpt, large }) {
@@ -101,7 +101,7 @@ export default function Blog() {
         <div className="max-w-[640px] mx-auto px-8 text-center">
           <span className="section-label block text-center">Newsletter</span>
           <h2 className="section-title mb-3">STAY IN THE <span className="text-gold">LOOP</span></h2>
-          <p className="text-text-light text-sm max-w-[480px] mx-auto mb-8">Get weekly articles on design, development, and creativity delivered straight to your inbox. No spam, ever.</p>
+          <p className="text-text-light text-sm max-w-[480px] mx-auto mb-8">Get weekly insights on full-stack web development, SaaS engineering, mobile app design, and enterprise architecture delivered straight to your inbox.</p>
           <form className="flex gap-3 max-w-[480px] mx-auto" onSubmit={e => e.preventDefault()}>
             <input type="email" className="form-input flex-1" placeholder="your@email.com" required/>
             <button type="submit" className="btn-gold flex-shrink-0">Subscribe</button>
